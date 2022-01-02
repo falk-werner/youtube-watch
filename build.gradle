@@ -1,0 +1,18 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'org.seleniumhq.selenium:selenium-java:4.0.0'
+	implementation 'org.slf4j:slf4j-api:1.7.32'
+	implementation 'org.slf4j:slf4j-simple:1.7.32'
+}
+
+application {
+    mainClass = 'youtube.watch.App'
+}
+
